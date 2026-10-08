@@ -1,26 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <script type="module" src="cadastro.js" defer></script>
+    <script type="module" src="./cadastro.js" defer></script>
+    <link rel="stylesheet" href="/src/pages/cadastro/style.css">
     <title>Cadastro</title>
 </head>
+
 <body>
+
     <main>
-        <h1>Olá de cadatro</h1>
-        <!--formulario cadastro-->
-        <form action=""id="formCadastro">
-            <label for="txtNome" nome="txtNome" id="txtNome"></label>
-            <input type="text" name="txtNome" id="txtNome" placeholder="digite nome" required>
-            <label for="txtCidade">Cidade</label>
-            <input type="text" name="txtCidade" id="txtCidade" placeholder="digite Cidade">
-            <label for="txtObservacao">Observações</label>
-            <input type="text" name="textObeservacao" id="textObeservacao" placeholder="digite Observações">
-            <button type="submit">Cadastrar</button>
-        </form><!--fim form cadastro-->
-        <a href="../../index.html">voltar</a>
+        <main>
+            <h1>
+                Cadastro de alunos
+            </h1>
+            <form action="" id="FormCadastro">
+                <label for="">Nome Completo</label>
+                <input type="text" name="txtNome" id="txtNome" placeholder="Digite Nome" required>
+                <label for="Cidade">Cidade</label>
+                <input type="text" name="txtCidade" id="txtCidade" placeholder="Nome da sua cidade">
+                <label for="Observacoes">Observações</label>
+                <input type="text" name="txtObseracoes" id="txtObseracoes" placeholder="Digite Observações">
+                <button type="submit">Cadastrar</button>
+            </form>
+            
+            <div class="Voltar">
+                <a href="../../index.html">Voltar</a>
+            </div>
+
+        </main>
     </main>
+
 </body>
+
 </html>
